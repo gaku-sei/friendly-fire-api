@@ -1,0 +1,7 @@
+R    /users
+R    /users/:id
+R    /users/:id/friends?name=...
+CRUD /users/:id/friends/:id
+R    /users/:id/conversations
+CRUD /users/:id/conversations/:id
+CRUD /users/:id/settings

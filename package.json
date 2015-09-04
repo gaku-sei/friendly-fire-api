@@ -1,0 +1,27 @@
+{
+  "name": "friendly-fire-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony --harmony_array_includes index.js"
+  },
+  "keywords": [],
+  "author": "Kévin Combriat",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.4.0",
+    "fast-json-patch": "^0.5.4",
+    "koa": "^1.0.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-cors": "0.0.16",
+    "koa-generic-session": "^1.9.2",
+    "koa-router": "^5.1.2",
+    "mime-types": "^2.1.6",
+    "mongoose": "^4.1.5",
+    "mongoose-json-patch": "^1.1.1"
+  }
+}
